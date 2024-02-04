@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validations</title>
+    <style>
+        body{
+
+   background-image: url("li2.jpg");
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+        
+        .container
+        {
+            
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    
+        }
+        .fd
+        {
+            padding: 60px 40px 50px 60px;
+            background-color: rgb(5, 17, 17);
+            border-radius: 20px;
+           
+            color: rgb(244, 242, 242);
+            width: 700px;
+            padding: 20px;
+
+        }
+        #name
+        {
+            border: none;
+            outline:none;
+            border-radius: 5px;
+            width: 300px;
+            height: 25px;
+           border-spacing: 20px;
+
+        }
+        #he{
+            margin-bottom: 25px;
+            text-align: center;
+            font-size: 35px;
+        }
+        #su
+        {
+            
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 35px;
+    margin-left: 300px;
+    margin-top: 12px;
+    font-size: 14px;
+        }
+        #su:hover
+        {
+            
+   background-color: blanchedalmond;
+        }
+    </style>
+</head>
+ 
+<body>
+  <div class="container">
+    <div class="fd">
+        <h3 id="he">Registration Form</h3>
+        <label>Name:</label><br>
+        <input type="text" id="name"><br>
+        <label>E-Mail:</label><br>
+        <input type="email" id="name"><br>
+        <label>Mobile Number:</label><br>
+        <input type="number" id="name"><br>
+        <label>Gender:</label><br>
+        <input type="radio"  id="" checked> <label for="">Male</label>
+        <input type="radio" id=""> <label for="">Female</label><br>
+        <label>DOB:</label><br>
+        <input type="date" id=""><br>
+        <label>Address:</label><br>
+        <textarea  cols="30" rows="10" id="name'">
+        </textarea><br>
+        <label>Qualification:</label>
+        <input type="checkbox">SSLC <input type="checkbox"> HSC<input type="checkbox"> DIPLOMA <input type="checkbox">B.E <br>
+        <label >Select Your City:  </label>
+        <select id="">
+            <option >Virudhunagar</option>
+            <option >Madurai</option>
+            <option >Chennai</option>
+            <option >Trichy</option>
+            <option >Covai</option>
+        </select><br>
+        <label>Upload Your Photo:</label>
+        <input type="file" id=""><br>
+        <input type="checkbox" id="">
+        <label>Are You Fill This Above Detials</label><br>
+       <a href="final.html"><input type="submit" value="submit" id="su"></a> 
+    </div>
+  </div>
+</body>
+</html>
