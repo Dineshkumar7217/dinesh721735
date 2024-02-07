@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking Website</title>
+    <style>
+        body{
+            background-image: url("sea1.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        }
+  .container
+  {
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    margin-left: 230px;
+  }
+  .fd
+  {
+    padding: 60px 40px 50px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(207, 205, 205, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+  }
+  #la
+  {
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(7, 7, 7);
+    font-size: 100%;
+    padding: 3px;
+    color: rgb(6, 6, 6);
+    font-weight:500px;
+    width: 380px;
+    height: 25px;
+  }
+  #sub
+{
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 35px;
+    margin-left: 128px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    border-top: 1px solid rgba(207, 205, 205, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+}
+#sub:hover
+{
+   background-color: rgb(152, 152, 72);
+   cursor: pointer;
+}
+img
+{
+    width: 450px;
+}
+h1
+{
+    color:rgb(10, 8, 8);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="margin-left: 735px;" id="h1">ROOM BOOKING FORM</h1>
+    </header>
+    <img src="micky2.png" alt="">
+ <div class="container"><br><br>
+    <div class="fd">
+        <label>Name:</label><br>
+        <input type="text" name="" id="la" required><br><br>
+        <label>E-Mail:</label><br>
+        <input type="email" name="" id="la" required><br><br>
+        <label>Phone_Number:</label><br>
+        <input type="number" name="" id="la" required><br><br>
+        <label>Date:</label><br>
+        <input type="date" name="" id="la" required><br><br>
+        <label>Time:</label><br>
+        <input type="time" name="" id="la" required><br><br>
+        <label>No.Of.Rooms:</label><br>
+        <input type="number" name="" id="la" required><br><br>
+       <a href="index.html"><input type="submit" value="Book Now" id="sub"></a> 
+        
+    </div>
+  
+
+ </div>
+</body>
+</html>
