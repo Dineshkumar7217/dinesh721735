@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <!-- <h1 id="h1"  data-aos="fade-right"> DK Dining</h1> -->
+         <div>
+            <img src="logo1_prev_ui.png" alt="" id="h1" style="margin:-10px 10px; width: 190px; align-items: center; color: white;">
+         </div>
+        
+        <nav >
+            <div class="nav-links" id="navlinks">
+                <i class="bi bi-x-lg" onclick="hidemenu()"></i>
+                <ul >
+                    <li ><a href="#home">Home</a></li>
+                    <li><a href="#menu1">Menu</a></li>
+                    <li ><a href="#services1">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#book">Book</a></li>
+                    <li ><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showmanu()" id="bar"></i>
+        </nav>
+         <div class="cls1">
+        <h3  data-aos="fade-up" id="home" style="font-size: 50px; color: rgb(31, 33, 110);letter-spacing: 2px;">
+           We do not cook, we create your emotions!
+        </h3><br>
+        <p  data-aos="fade-up" style="color: black;letter-spacing: 2px;">" Where Flavor Meets Elegance "
+            Savor the finest flavors and enjoy an unforgettable dining experience with us.
+        </p>    
+       <br>
+            <a href="#menu1"><button id="b1" >Our Menu</button></a><br><br>
+        </div>
+
+    </header>
+   
+    <!-- MENU SECTION -->
+
+    <section class="menu">
+        <div >
+            <h1 data-aos="fade-down" id="menu1" style="color:  hsl(250, 37%, 25%); letter-spacing: 2px;">
+                Enjoy Your Dishes!!
+            </h1><br>
+            <p>"Delight in Every Bite: Where Flavor Meets Tradition!"</p>
+        </div>
+     <div class="card-container">
+        <div class="card"  data-aos="fade-left">
+            <img src="bg0.avif" alt="" >
+            <div class="content">
+                <h1>Dosa</h1>
+                <p>Dosa is a nutrient-rich, low-fat South Indian dish made from fermented rice and lentil batter, offering benefits like improved digestion, sustained energy, and being naturally gluten-free. </p>
+                <button id="b11" data-aos="fade-up">Order-Now</button>
+            </div>
+        </div>
+        <div class="card"  data-aos="fade-up" >
+            <img src="bg7.jpeg" alt="">
+            <div class="content">
+                <h1>Full-Meals</h1>
+                <p>A traditional South Indian full meal, often referred to as a "South Indian thali," is a wholesome and balanced meal that offers a variety of flavors, textures, and nutritional benefits
+                </p>
+                <button id="b11" data-aos="fade-up">Order-Now</button>
+            </div>
+        </div>
+        <div class="card"  data-aos="fade-left">
+            <img src="bg8.jpg" alt="">
+            <div class="content">
+                <h1>Briyani</h1>
+                <p>Biryani is a flavorful and aromatic South Asian dish made with spiced rice, marinated meat or vegetables, and a blend of herbs and spices, offering a rich and satisfying meal.</p>
+                <button id="b11" data-aos="fade-up">Order-Now</button>
+            </div>
+        </div>
+        <div class="card" data-aos="fade-left">
+            <img src="bg11.jpg" alt="">
+            <div class="content">
+                <h1>Mandi-Briyani</h1>
+                <p>Mandi biryani is a traditional Arabian dish featuring spiced rice cooked with marinated meat, typically lamb or chicken, known for its smoky flavor and fragrant spices. </p>
+                <button id="b11" data-aos="fade-up">Order-Now</button>
+            </div>
+        </div>
+        <div class="card"  data-aos="fade-up">
+            <img src="bg2.jpg" alt="">
+            <div class="content">
+                <h1>Mutton-Chukka</h1>
+                <p>Mutton chukka is a spicy South Indian dry curry made with tender mutton pieces, aromatic spices, and curry leaves, offering a rich and flavorful experience.</p>
+                <button id="b11" data-aos="fade-up">Order-Now</button>
+            </div>
+        </div>
+        <div class="card" data-aos="fade-left">
+            <img src="bg9.jpg" alt="">
+            <div class="content">
+                <h1>Chicken-Tikka</h1>
+                <p>Chicken tikka is a popular Indian dish consisting of marinated chicken pieces grilled or roasted to perfection, known for its smoky flavor and vibrant spices.
+                </p>
+                <button id="b11" data-aos="fade-up">Order-Now</button>
+            </div>
+        </div>
+        <div class="card" data-aos="fade-left">
+            <img src="bg3.jpg" alt="">
+            <div class="content">
+                <h1>Kothu-parotta</h1>
+                <p>Kothu parotta is a flavorful South Indian street food made by stir-frying shredded parotta (layered flatbread) with eggs, vegetables, and spices, often accompanied by a spicy curry.
+                    Shredded parotta, eggs, veggies..</p>
+                <button id="b11" data-aos="fade-up">Order-Now</button>
+            </div>
+        </div>
+        <div class="card"  data-aos="fade-up" >
+            <img src="bg4.jpg" alt="">
+            <div class="content">
+                <h1>Salad</h1>
+                <p>A salad is a versatile dish typically made from a mixture of fresh vegetables, fruits, and sometimes proteins like chicken or beans, often dressed with a variety of dressings for a light and nutritious meal.</p>
+                <button id="b11" data-aos="fade-up">Order-Now</button>
+            </div>
+        </div>
+        <div class="card" data-aos="fade-left">
+            <img src="bg12.jpg" alt="">
+            <div class="content">
+                <h1>Drinks</h1>
+                <p>Drinks range from revitalizing teas and freshly squeezed juices to indulgent cocktails and invigorating coffees, catering to various tastes and occasions with a spectrum of flavors and effects.
+                </p>
+                <button id="b11" data-aos="fade-up">Order-Now</button>
+            </div>
+        </div>
+     </div>
+    </section>
+   
+
+
+<!-- SERVICES SECTION -->
+
+<section  class="services1" id="services1">
+    <div >
+        <h1 data-aos="fade-down" id="menu1" style="color:  hsl(250, 37%, 25%); letter-spacing: 2px; text-align: center; margin-top: 20px;">
+           Our Services
+        </h1><br>
+        <p style="text-align: center; color: black;">"Where Every Bite Comes with a Smile!!"</p>
+    </div>
+    <div class="card-container">
+        <div class="card"  data-aos="fade-left">
+          <div class="content">
+                <h1 style="color: rgb(38, 38, 72); text-align: center; letter-spacing: 2px;">Private Dining</h1>
+                <p style="color: black; text-align: center; padding: 10px;">Enjoy an exclusive dining experience in our elegant private rooms, perfect for intimate gatherings or special celebrations.</p>
+                <p style="color: rgb(58, 39, 97); text-align: center;">Customer Ratings: ★★★★</p>
+            </div>
+        </div>
+        <div class="card"  data-aos="fade-left">
+            <div class="content">
+                <h1 style="color: rgb(38, 38, 72); text-align: center; letter-spacing: 2px;">Chef Services</h1>
+                <p style="color: black; text-align: center; padding: 10px;">Savor the creations of our acclaimed chef, who brings innovation and artistry to every dish.Enjoy your dishes and good chefs</p>
+                <p style="color: rgb(58, 39, 97); text-align: center;">Customer Ratings: ★★★★★</p>
+            </div>
+          </div>
+          <div class="card"  data-aos="fade-left">
+            <div class="content">
+                <h1 style="color: rgb(38, 38, 72); text-align: center; letter-spacing: 2px;">Special Offering</h1>
+                <p style="color: black; text-align: center; padding: 10px;">Experience our special offerings, featuring seasonal dishes and exclusive chef's specials that highlight the freshest ingredients.</p>
+                <p style="color: rgb(58, 39, 97); text-align: center;">Customer Ratings: ★★★★★</p> 
+            </div>
+          </div>
+    
+    </div>
+         
+    <h1 data-aos="fade-down" id="menu1" style="color:  hsl(250, 37%, 25%); letter-spacing: 2px; text-align: center; margin-top: 20px;">
+        Our Good Chefs
+     </h1>
+     <div class="card-container">
+        <div class="card"  data-aos="fade-left">
+          <div class="content">
+                <h1 style="color: rgb(38, 38, 72); text-align: center; letter-spacing: 2px;">KARINA</h1>
+                <p style="text-align: center; color: rgb(55, 55, 111);letter-spacing: 2px;">Sushi Chef (Japan)</p>
+                <img src="chef-8.jpg" alt="" style="display: flex; justify-content: center; align-items: center;" id="chef2">
+                <p style="color:  rgb(38, 38, 72);text-align: center;padding-top: 12.5px;">A master precision and tradition,crafting delicate pieces of art from the freshest fish and perfectly seasoned rice.</p>
+                <p style="color: rgb(58, 39, 97); text-align: center;" id="c1">Customer Ratings: ★★★★</p>
+            </div>
+        </div>
+        <div class="card"  data-aos="fade-left">
+            <div class="content">
+                <h1 style="color: rgb(38, 38, 72); text-align: center; letter-spacing: 2px;">GEORGE</h1>
+                <p style="text-align: center; color: rgb(55, 55, 111);letter-spacing: 2px;">Italian Pasta Chef</p>
+                <img src="chef1.png" alt="" style="display: flex; justify-content: center; align-items: center;" id="chef2">
+                <p style="color:  rgb(38, 38, 72);text-align: center; padding-top: 10px;">Passionate about creating comforting dishes, skillfully blending simple ingredients like eggs,cheese.</p>
+                <p style="color: rgb(58, 39, 97); text-align: center;" id="c1">Customer Ratings: ★★★★</p>
+            </div>
+          </div>
+          <div class="card"  data-aos="fade-left">
+            <div class="content">
+                <h1 style="color: rgb(38, 38, 72); text-align: center; letter-spacing: 2px;">WILLAM</h1>
+                <p style="text-align: center; color: rgb(55, 55, 111);letter-spacing: 2px;">Indian Curry Chef</p>
+                <img src="young-chef-white-background-uniform-isolated-107837471.png" alt="" style="display: flex; justify-content: center; align-items: center;" id="chef2">
+                <p style="color:  rgb(38, 38, 72);text-align: center; padding-top: 10px;">A magician with spices turning humble ingredients into rich and flavorful dishes that warm the soul with every bite.</p>
+                <p style="color: rgb(58, 39, 97); text-align: center;" id="c1">Customer Ratings: ★★★★</p> 
+            </div>
+          </div>
+    
+    </div>
+
+
+</section>
+
+<!-- BOOK TABLE SECTION -->
+
+<div class="heading">
+    <h1>Book A Table</h1>
+    <p>Book a Table With Exclusive Features</p>
+ </div>
+     
+ <section class = "Book" id="book">
+
+
+        <div class = "card-content1">
+            <h3>Registration</h3>
+            <form>
+                <div class = "form-row">
+                    <select name = "days" class="select-option" required>
+                        <option value = "day-select">Select Day</option>
+                        <option value = "sunday">Sunday</option>
+                        <option value = "monday">Monday</option>
+                        <option value = "tuesday">Tuesday</option>
+                        <option value = "wednesday">Wednesday</option>
+                        <option value = "thursday">Thursday</option>
+                        <option value = "friday">Friday</option>
+                        <option value = "saturday">Saturday</option>
+                    </select>
+
+                    <select name = "hours" class="select-option" required>
+                        <option value = "hour-select">Select Hour</option>
+                        <option value = "10">10: 00</option>
+                        <option value = "10">12: 00</option>
+                        <option value = "10">14: 00</option>
+                        <option value = "10">16: 00</option>
+                        <option value = "10">18: 00</option>
+                        <option value = "10">20: 00</option>
+                        <option value = "10">22: 00</option>
+                    </select>
+                </div>
+
+                <div class = "form-row">
+                    <input type = "text" placeholder="Full Name" required>
+                    <input type = "number" placeholder="Phone Number" required>
+                </div>
+
+                <div class = "form-row">
+                    <input type = "number" placeholder="How Many Persons?" min = "1" required>
+                    <input type = "submit" value = "BOOK TABLE" >
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+ 
+    <!-- ABOUTUS SECTION -->
+
+  
+    <div class="heading">
+        <h1>About Us</h1>
+        <p>Welcome to our Resort</p>
+     </div>
+   <div class="container1">
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="45dd33dc0832b1693a1799a85b15d206.webp" alt="">
+        </div>
+        <div class="about-content">
+            <h4>Food that speaks for itself</h4>
+            <p>Our restaurant, nestled in the heart of the city, is a culinary haven where gastronomy meets hospitality. With a passion for excellence, we curate memorable dining experiences that celebrate the art of food. Our diverse menu reflects a fusion of global flavors and local traditions, crafted from the freshest ingredients sourced sustainably. From intimate dinners to vibrant gatherings, our warm and inviting ambiance sets the stage for unforgettable moments. Committed to impeccable service and culinary creativity, we strive to exceed expectations, leaving a lasting impression on every palate. Welcome to a culinary journey like no other, where every bite tells a story.</p>
+            <a href="" class="read">Read More</a>
+        </div>
+    </section>
+   </div>
+
+<!-- MAP SECTION -->
+<section >
+    <div class="h1-iframe">
+        <h1>Location</h1>
+    </div>
+    <div class="container2">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1017.5461047021494!2d77.9607389716647!3d9.57431120431929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAllampatti%20Water%20Tank!5e1!3m2!1sen!2sin!4v1717999568950!5m2!1sen!2sin" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+   
+<!-- CONTACT SECTION -->
+
+<div class="container" id="contact">
+    <div class="row">
+      <div class="col col-lg-6">
+        <div class="left">
+          <h1 style="color: rgb(51, 51, 128);">Contact Us</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, na mollitia dignissimos voluptas provident adipisci dolorum? Doloribus enim harum tenetur minus fugit mollitia,</p>
+          <div class="email">Email
+              <p><i class="fa-solid fa-envelope" style="color: black;"></i><a href="https://in.search.yahoo.com/yhs/search?hspart=sz&hsimp=yhs-002&p=gmail+login&type=type80260-2478003603&param1=311031167" style="text-decoration: none; color: black;margin-left: 5px;">Djdiningresort@gmail.com</a> </p>
+          </div>
+          <div class="social">
+              <h1 style="color: rgb(51, 51, 128);">Social Media</h1>
+             <li><i class="fa-brands fa-instagram" style="color: black;"></i><a href="https://www.instagram.com/?hl=en" style="text-decoration: none; color: black;margin-left: 5px;">Instagram</a> </li>
+              <li><i class="fa-brands fa-facebook" style="color: black;"></i><a href="https://www.facebook.com/" style="text-decoration: none; color: black;margin-left: 5px;">Facebook</a> </li>
+              <li><i class="fa-brands fa-twitter" style="color: black;"></i><a href="https://x.com/?lang=en-in" style="text-decoration: none; color: black;margin-left: 5px;">Twitter</a></li>
+              <li><i class="fa-brands fa-youtube" style="color: black;"></i><a href="https://www.youtube.com/" style="text-decoration: none; color: black;margin-left: 5px;">Youtube</a></li>
+            </div>
+        </div>
+      </div>
+      
+      <div class="col col-lg-6">
+          <div class="right">
+              <form action="" class="form">
+                  <label htmlFor="/" class="form-label" >Name</label> <br />
+                  <input type="text" class="form-control" placeholder="Enter your name" /> <br />
+                  <label htmlFor="/" class="form-label">Email</label> <br />
+                  <input type="text" class="form-control" placeholder="Enter Your Email" /> <br />
+                  <label htmlFor="/" class="form-label">Select</label> <br />
+                  <select name="" id="select-option" class="form-select">
+                      <option value="">Select</option>
+                      <option value="">Problem 1</option>
+                      <option value="">Problem 2</option>
+                      <option value="">Problem 3</option>
+                      <option value="">Problem 4</option>
+                  </select> <br />
+                  <label htmlFor="" class="form-label">Message</label> <br />
+                  <textarea name="" id="" cols="30" rows="3" class="form-control" style="margin-left:10px;" placeholder="Enter Your Message"></textarea> <br />
+                  <button class="btn btn-primary " type="submit">Submit Query</button>
+              </form>
+          </div>
+      </div>
+
+
+    <!-- FOOTER SECTION -->
+
+    <footer>
+        <div class="container3">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email:Djdiningresort@gmail.com</p>
+                <p>Phone:+1212 3343 1211</p>
+                <p>Address:641-2 virudhunager-626001</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                 <ul class="list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu1">Menu</a></li>
+                    <li><a href="#services1">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#book">Book</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                 <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                 <li><a href="https://x.com/?lang=en-in"><i class="fab fa-twitter"></i></a></li>
+                 <li><a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                 <li><a href="https://in.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2023 DJ Dining . All rights reserved</p>
+        </div>
+    </footer>
+
+
+<script>
+     var navlinks = document.getElementById('navlinks');
+     function showmanu()
+     {
+        navlinks.style.right = "0";
+     }
+     function hidemenu()
+     {
+        navlinks.style.right = "-200px";
+     }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" ></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+<script>
+ AOS.init({
+     duration: 1200,  
+ });
+</script>
+
+<script>
+    window.addEventListener("scroll",function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky",window.scrollY > 0);
+    })
+</script>
+
+</body>
+</html>
