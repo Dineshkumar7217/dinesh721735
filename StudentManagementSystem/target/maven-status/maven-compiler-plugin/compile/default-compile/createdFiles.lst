@@ -1,0 +1,4 @@
+com\mycompany\studentmanagementsystem\StudentManagementSystem.class
+com\mycompany\studentmanagementsystem\DatabaseConnection.class
+com\mycompany\studentmanagementsystem\StudentDAO.class
+com\mycompany\studentmanagementsystem\Student.class
